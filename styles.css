@@ -1,0 +1,31 @@
+body {
+    color: white;
+    background: black;
+}
+
+header {
+    border-bottom: solid 2px rgb(186, 13, 13);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(186, 13, 13);
+}
+H2 {
+    display: block;
+    text-align: center;
+}
+img {
+    height: 150px;
+}
+.videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+.videos img {
+    opacity: 0.5;
+}
+.videos img:hover {
+    opacity: 1;
+    border: 2px solid rgb(186, 13, 13);
+}
+    
